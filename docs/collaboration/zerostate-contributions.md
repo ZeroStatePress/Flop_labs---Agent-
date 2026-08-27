@@ -127,9 +127,10 @@ steps reads as opportunism:
 
 | # | Action | Issue | Track | Effort | Visibility | When |
 |---|---|---|---|---|---|---|
-| 1 | Start `awesome-technocore` repo, seed with research links | [#11](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/11) | A.1 | S | High | Now — first-mover window |
-| 2 | Finish + publish auditable identity tool | [#6](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/6) | A.2 | M | High | Now (blocks Phase 1 anyway) |
-| 3 | Signed intro + sustained genuine room presence | [#8](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/8) | A.3 | S | Medium | After #7 |
+| 0 | **Mac quickstart: local identity session** (gates everything DID-linked) | [#17](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/17) | A.3 | S | — | **Now — next concrete action** |
+| 1 | Start `awesome-technocore` repo, seed with research links | [#11](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/11) | A.1 | S | High | Now — first-mover window; content staged in `staging/`, standalone repo deferred until announce-ready |
+| 2 | ~~Finish + publish auditable identity tool~~ ✅ done | [#6](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/6) | A.2 | M | High | Shipped: `technocore_identity.py` |
+| 3 | Signed intro + sustained genuine room presence | [#8](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/8) | A.3 | S | Medium | Via #17 |
 | 4 | One small upstream PR (docs/tests/bugfix) | [#12](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/12) | B.1 | S–M | High | Within 2 weeks |
 | 5 | AMA attendance with prepared technical questions | [#13](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/13) | B.5 | S | Medium | ~First week of Sept 2026 |
 | 6 | Technical review of whitepaper's verification mechanism | [#14](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/14) | B.2 | M–L | High | When whitepaper drops |
