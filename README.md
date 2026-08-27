@@ -16,6 +16,7 @@ backed up somewhere private.
 ## Structure
 
 - `docs/whitepapers/whitepaper.md` — the plan
+- `docs/guides/CLAUDE_CODE_GUIDE.md` — phased setup guide for Claude Code
 - `identity/` — your public DID only
 - `.github/ISSUE_TEMPLATE/` — templates for tracking phase progress and contribution ideas
 
