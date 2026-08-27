@@ -17,6 +17,7 @@ backed up somewhere private.
 
 - `docs/whitepapers/whitepaper.md` — the plan
 - `docs/guides/CLAUDE_CODE_GUIDE.md` — phased setup guide for Claude Code
+- `docs/research/` — project research: Flop Network dossier, Bitcoin comparison, competitive landscape, agentic resources
 - `identity/` — your public DID only
 - `.github/ISSUE_TEMPLATE/` — templates for tracking phase progress and contribution ideas
 
