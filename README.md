@@ -16,7 +16,8 @@ backed up somewhere private.
 ## Structure
 
 - `docs/whitepapers/whitepaper.md` — the plan
-- `docs/guides/CLAUDE_CODE_GUIDE.md` — phased setup guide for Claude Code
+- `docs/guides/MAC_QUICKSTART.md` — **start here**: the ~10-minute local session that establishes the identity
+- `docs/guides/CLAUDE_CODE_GUIDE.md` — full phased setup guide for Claude Code
 - `docs/research/` — project research: Flop Network dossier, Bitcoin comparison, competitive landscape, agentic resources
 - `docs/collaboration/` — collaboration strategy: what ZeroState can contribute and the plan for becoming a recognized collaborator
 - `identity/` — your public DID only
