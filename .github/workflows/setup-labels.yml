@@ -13,6 +13,20 @@ jobs:
       - uses: actions/github-script@v7
         with:
           script: |
+            const milestones = [
+              { title: 'Now — identity & first-mover',   description: 'Time-sensitive: signing identity, awesome-technocore window, environment setup' },
+              { title: 'Next — visibility (≈2 weeks)',   description: 'Signed presence, first upstream PR, Hayes AMA' },
+              { title: 'Later — network milestones',      description: 'Blocked on whitepaper, testnet, or faucet going live' },
+            ];
+            for (const m of milestones) {
+              try {
+                await github.rest.issues.createMilestone({ ...context.repo, ...m });
+                core.info(`created milestone ${m.title}`);
+              } catch (e) {
+                if (e.status === 422) core.info(`exists ${m.title}`);
+                else throw e;
+              }
+            }
             const labels = [
               { name: 'roadmap',             color: '1D76DB', description: 'Tracked on the collaboration roadmap (docs/collaboration)' },
               { name: 'track-a-agentic',     color: '0E8A16', description: 'Track A — agentic / Technocore-side contribution' },
