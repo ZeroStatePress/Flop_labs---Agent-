@@ -1,0 +1,5 @@
+# Never commit private key material
+identity.json
+.technocore/
+*.pem
+*.key
