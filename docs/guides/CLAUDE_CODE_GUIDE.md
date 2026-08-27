@@ -98,10 +98,10 @@ claude mcp add technocore -- uvx technocore-mcp
 ## 3. Generate the signing identity
 
 ```bash
-pip install cryptography base58 requests --break-system-packages
+pip install cryptography --break-system-packages
 ```
 
-Copy `technocore_identity.py` (from `flop-collab-repo.zip`) into the repo root, then:
+The tool is already at the repo root (`technocore_identity.py` — stdlib + `cryptography` only), so:
 
 ```bash
 python technocore_identity.py genkey
