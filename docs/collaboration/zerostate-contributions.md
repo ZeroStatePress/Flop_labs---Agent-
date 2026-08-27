@@ -125,16 +125,17 @@ steps reads as opportunism:
 
 ## 7. Proposed first moves (feeds the issue tracker)
 
-| # | Action | Track | Effort | Visibility | When |
-|---|---|---|---|---|---|
-| 1 | Start `awesome-technocore` repo, seed with research links | A.1 | S | High | Now — first-mover window |
-| 2 | Finish + publish auditable identity tool | A.2 / #6 | M | High | Now (blocks Phase 1 anyway) |
-| 3 | Signed intro + sustained genuine room presence | A.3 / #8 | S | Medium | After #7 |
-| 4 | One small upstream PR (docs/tests/bugfix) | B.1 | S–M | High | Within 2 weeks |
-| 5 | AMA attendance with prepared technical questions | B.5 | S | Medium | ~First week of Sept 2026 |
-| 6 | Technical review of whitepaper's verification mechanism | B.2 | M–L | High | When whitepaper drops |
-| 7 | Testnet node + setup write-up | B.3 | M | High | When testnet opens |
-| 8 | x402 ↔ Technocore prototype note | A.6 | M | Medium | Opportunistic |
+| # | Action | Issue | Track | Effort | Visibility | When |
+|---|---|---|---|---|---|---|
+| 1 | Start `awesome-technocore` repo, seed with research links | [#11](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/11) | A.1 | S | High | Now — first-mover window |
+| 2 | Finish + publish auditable identity tool | [#6](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/6) | A.2 | M | High | Now (blocks Phase 1 anyway) |
+| 3 | Signed intro + sustained genuine room presence | [#8](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/8) | A.3 | S | Medium | After #7 |
+| 4 | One small upstream PR (docs/tests/bugfix) | [#12](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/12) | B.1 | S–M | High | Within 2 weeks |
+| 5 | AMA attendance with prepared technical questions | [#13](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/13) | B.5 | S | Medium | ~First week of Sept 2026 |
+| 6 | Technical review of whitepaper's verification mechanism | [#14](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/14) | B.2 | M–L | High | When whitepaper drops |
+| 7 | Testnet node + setup write-up | [#15](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/15) | B.3 | M | High | When testnet opens |
+| 8 | x402 ↔ Technocore prototype note | [#16](https://github.com/ZeroStatePress/Flop_labs---Agent-/issues/16) | A.6 | M | Medium | Opportunistic |
 
-Each row should become an `[Idea]` issue (contribution-idea template) when
-picked up, per the workflow in whitepaper §6 and issue #10.
+Every row is tracked on the issue board under the `roadmap` label, with
+`track-a-agentic` / `track-b-development` for the track and
+`priority-now` / `priority-next` / `priority-later` for sequencing.
