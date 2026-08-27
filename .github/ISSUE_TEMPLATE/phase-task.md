@@ -5,7 +5,7 @@ title: "[Phase N] "
 labels: phase-task
 ---
 
-**Phase:** (0 / 1 / 2 / 3 / 4 — see docs/whitepaper.md Section 5)
+**Phase:** (0 / 1 / 2 / 3 / 4 — see docs/whitepapers/whitepaper.md Section 5)
 
 **Task description:**
 

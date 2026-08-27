@@ -4,7 +4,7 @@ Personal tracking repo for participation in the [Flop Network](https://x.com/flo
 Technocore ecosystem — identity setup, testnet activity, and any contributions staged
 for upstream to [`flop-labs/technocore-chat`](https://github.com/flop-labs/technocore-chat).
 
-See [`docs/whitepaper.md`](docs/whitepaper.md) for the full plan: background, objectives,
+See [`docs/whitepapers/whitepaper.md`](docs/whitepapers/whitepaper.md) for the full plan: background, objectives,
 phased roadmap, and risk register.
 
 ## ⚠️ Never commit private keys
@@ -15,7 +15,7 @@ backed up somewhere private.
 
 ## Structure
 
-- `docs/whitepaper.md` — the plan
+- `docs/whitepapers/whitepaper.md` — the plan
 - `identity/` — your public DID only
 - `.github/ISSUE_TEMPLATE/` — templates for tracking phase progress and contribution ideas
 

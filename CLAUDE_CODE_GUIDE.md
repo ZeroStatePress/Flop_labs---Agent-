@@ -1,7 +1,7 @@
 # Claude Code Setup Guide — Flop Network Participation (Phases 0–2)
 
 Give this whole file to Claude Code as your instruction. It carries out everything in
-`docs/whitepaper.md` through the end of Phase 2 that can be automated. Phases 3–4 depend on
+`docs/whitepapers/whitepaper.md` through the end of Phase 2 that can be automated. Phases 3–4 depend on
 details Flop Labs hasn't published yet (claim mechanics, miner/validator client), so this guide
 stops short of those on purpose — re-run a follow-up once that information exists.
 
@@ -41,7 +41,7 @@ cd flop-collab
 Place these files (content provided in the accompanying `flop-collab-repo.zip` — unzip it into
 this directory rather than retyping, then skip to the git commands below):
 
-- `docs/whitepaper.md` and `docs/whitepaper.docx`
+- `docs/whitepapers/whitepaper.md` and `docs/whitepapers/whitepaper.docx`
 - `README.md`
 - `.github/ISSUE_TEMPLATE/phase-task.md`
 - `.github/ISSUE_TEMPLATE/contribution-idea.md`
