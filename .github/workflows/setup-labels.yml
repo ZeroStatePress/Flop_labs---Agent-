@@ -1,0 +1,35 @@
+name: Setup roadmap labels
+
+on:
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const labels = [
+              { name: 'roadmap',             color: '1D76DB', description: 'Tracked on the collaboration roadmap (docs/collaboration)' },
+              { name: 'track-a-agentic',     color: '0E8A16', description: 'Track A — agentic / Technocore-side contribution' },
+              { name: 'track-b-development', color: '5319E7', description: 'Track B — remote protocol development contribution' },
+              { name: 'priority-now',        color: 'D93F0B', description: 'Do now — time-sensitive window' },
+              { name: 'priority-next',       color: 'FBCA04', description: 'Do soon — within weeks' },
+              { name: 'priority-later',      color: 'C2E0C6', description: 'Waiting on external milestone (whitepaper, testnet, faucet)' },
+              { name: 'signing',             color: '006B75', description: 'DID / key / signing related' },
+              { name: 'token',               color: 'E99695', description: 'FLOP token / faucet / airdrop related' },
+              { name: 'agent',               color: 'BFD4F2', description: 'Agent tooling / MCP / automation related' },
+            ];
+            for (const l of labels) {
+              try {
+                await github.rest.issues.createLabel({ ...context.repo, ...l });
+                core.info(`created ${l.name}`);
+              } catch (e) {
+                if (e.status === 422) core.info(`exists ${l.name}`);
+                else throw e;
+              }
+            }
